@@ -7,7 +7,7 @@ A client side comic scraping script
 - Clone the repository
 
 ```
-git clone --depth=1 ... <project_name>
+git clone --depth=1 https://github.com/yahiousun/comic-scraping.git <project_name>
 ```
 - Install dependencies
 
