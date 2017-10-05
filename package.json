@@ -15,7 +15,8 @@
     "scraping",
     "browser"
   ],
-  "author": "yahiousun",
+  "repository": "yahiousun/comic-scraping",
+  "author": "SiyuanHou <yahiousun@gmail.com>",
   "license": "MIT",
   "devDependencies": {
     "@types/jasmine": "^2.6.0",
