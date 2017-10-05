@@ -7,7 +7,7 @@
     "start": "npm run build && npm run watch",
     "prepublish": "npm run build",
     "build": "tsc",
-    "test": "karma start karma.conf.js --single-run",
+    "test": "karma start karma.conf.js --log-level debug --single-run",
     "watch": "karma start karma.conf.js"
   },
   "keywords": [
