@@ -1,0 +1,33 @@
+{
+  "name": "comic-scraping",
+  "version": "0.1.0",
+  "description": "A client side comic scraping script",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm run build && npm run watch",
+    "prepublish": "npm run build",
+    "build": "tsc",
+    "test": "karma start karma.conf.js --single-run",
+    "watch": "karma start karma.conf.js"
+  },
+  "keywords": [
+    "comic",
+    "scraping",
+    "browser"
+  ],
+  "author": "yahiousun",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/jasmine": "^2.6.0",
+    "jasmine-core": "^2.8.0",
+    "karma": "^1.7.1",
+    "karma-chrome-launcher": "^2.2.0",
+    "karma-jasmine": "^1.1.0",
+    "karma-typescript": "^3.0.7",
+    "tslint": "^5.7.0",
+    "typescript": "^2.5.3"
+  },
+  "dependencies": {
+    "uuid": "^3.1.0"
+  }
+}
