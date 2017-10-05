@@ -1,4 +1,5 @@
 # Comic Scraping
+[![Build Status](https://travis-ci.org/yahiousun/comic-scraping.svg?branch=master)](https://travis-ci.org/yahiousun/comic-scraping)
 
 A client side comic scraping script
 
